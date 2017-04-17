@@ -61,3 +61,4 @@ public class MyFragment extends Fragment implements ModelListener {
 		updateTextView();
 	}
 }
+ 
