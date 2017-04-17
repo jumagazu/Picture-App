@@ -34,13 +34,13 @@ public class MainActivity extends Activity {
 		return mInstance;
 	}
 
-	// When the count is increased, we notify listeners that the underlying data has changed
+
 	public void increaseCount() {
 		mInstance.mCount++;
 		notifyListeners();
 	}
 
-	// This is a simple event interface to notify Fragments when the underlying model has changed
+
 
 	public interface ModelListener {
 		public void onModelChanged();
