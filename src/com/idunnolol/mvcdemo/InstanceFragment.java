@@ -10,5 +10,5 @@ public class InstanceFragment extends Fragment {
 		return instance;
 	}
 
-	public int mCount = 0;
+	public int mCount = 0; 
 }
